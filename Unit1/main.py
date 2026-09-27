@@ -1,0 +1,11 @@
+import math_utils
+Rectangle = input("Enter the length and width of the rectangle separated by a space: ")
+area = math_utils.area_rectangle(*map(float, Rectangle.split()))
+perimeter = math_utils.perimeter_rectangle(*map(float, Rectangle.split()))
+print(f"Area of rectangle: {area}")
+print(f"Perimeter of rectangle: {perimeter}")
+Radius = float(input("Enter the radius of the circle: "))
+area_circle = math_utils.area_circle(Radius)
+circumference_circle = math_utils.circumference_circle(Radius)
+print(f"Area of circle: {area_circle}")
+print(f"Circumference of circle: {circumference_circle}")
