@@ -106,3 +106,4 @@ start = int(input("Enter the starting number: "))
 end = int(input("Enter the ending number: "))
 for i in range(1, end + 1):
     print(start, "x", i, "=", start * i)
+
